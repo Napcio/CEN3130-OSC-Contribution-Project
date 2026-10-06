@@ -82,10 +82,8 @@
     padding-bottom: 50px;
 }
 
-#downloadCol{
-    columns: 3;
+#downloadContainer{
     padding-bottom: 30px;
-
     margin: 10px;
 }
 
@@ -101,11 +99,13 @@
     flex-direction: column;
     height: 40vh;
 
+    flex: 1;
     align-items: center;
 }
 
 .logo{
     height: 8vh;
+    width: auto;
 }
 
 #downloadLabel{

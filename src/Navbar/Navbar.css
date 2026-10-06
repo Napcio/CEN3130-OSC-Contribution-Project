@@ -18,6 +18,8 @@
   width: 60px;
   height: 60px;
   margin-left: 10px;
+  flex-shrink: 0;
+  max-width: none;
 }
 
 .logo-container {
