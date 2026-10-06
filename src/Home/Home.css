@@ -82,30 +82,38 @@
     padding-bottom: 50px;
 }
 
-#downloadCol{
-    columns: 3;
+#downloadContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding-bottom: 30px;
-
     margin: 10px;
+}
+@media (min-width: 768px)
+{
+    #downloadContainer
+    {
+        flex-direction: row;
+    }
 }
 
 .column{
     background-color: white;
     padding: 30px;
-    margin-left: 20px;
     border-radius: 40px;
-    margin-right: 20px;
     border: pink, 2px, dashed;
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 40vh;
 
+    flex: 1;
     align-items: center;
 }
 
 .logo{
     height: 8vh;
+    width: auto;
 }
 
 #downloadLabel{

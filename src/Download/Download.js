@@ -15,7 +15,7 @@ const Download = () => {
             <Navbar />
          <div id="download">
                 <h2 id="aboutHeading" className="download-title">Download <span id="bytesName">Bytes of Love</span> Now!</h2>
-                <div id="downloadCol">
+                <div id="downloadContainer">
                     <div id="macDownload" class="column">
                         <img class="logo" src="images/apple-logo.svg"></img>
                         <h2 id="downloadLabel">Mac</h2>
