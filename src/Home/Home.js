@@ -62,7 +62,7 @@ const Home = () => {
             <div id="download">
                 <hr id="descDivi"></hr>
                 <h2 id="aboutHeading" className="download-title">Download <span id="bytesName">Bytes of Love</span> Now!</h2>
-                <div id="downloadContainer" className="flex flex-col md:flex-row gap-2">
+                <div id="downloadContainer">
 
                     <div id="macDownload" class="column">
                         <img class="logo" src="images/apple-logo.svg"></img>
